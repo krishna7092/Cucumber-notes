@@ -1,0 +1,31 @@
+we can also run through cmds need to do some changes in pom .xl for profile
+
+remove xml suits add it as include
+
+inorder to give the path like test-output/testrunner.java we can use ***/testrunnerr.java
+
+we can run thorugh maven cmds or jenkin as well
+
+ <profile>
+		  <id>cucumber</id>
+		 
+		  <build>
+    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+      <plugins>
+        <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+        <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.1</version>
+        <configuration>
+          
+            <includes>**/Runner.java</includes>
+        </configuration>
+      </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+		</profile> 
+
+in jenkin we can add another options and we can run which commend is
+mvn test -Pcucumber -Dchrome

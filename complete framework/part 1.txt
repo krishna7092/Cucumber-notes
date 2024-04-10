@@ -1,0 +1,118 @@
+                                                        Introduction :-
+
+what is cucumber and bdd ?
+
+diff between the cucumber vs selenium ?
+
+
+-----------------------------------go through doc ---------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------
+feauture ,feature file ,step definition ,runner 
+
+
+Step defintion
+
+runner
+-------------------------------------------------
+feature file 
+
+background
+
+
+how to pass a string as scenario outline as "<user>" it mean as string
+
+syntax in step def for above
+
+how to pass a any char as scenario outline as <user>
+
+syntax in step def for above
+
+diff between data driven send list of data vs scenario outline as example
+
+given login with details
+|krishna|
+|23|
+|MAle|
+this above one we acheived through datatable
+
+data drive bdd syntax and step map ,code
+========================================================================
+                    stepdefinition
+ regex means all should be 
+
+we cannot use one {string} and (.+)
+
+for datatable we should capture as list<object> or list<number> for data driver
+
+regex e need t understand like /d for 0-9 one digit ot //d+ or (.*)
+
+
+----------------------------------------------------------------------------------
+tags
+
+tags ={""} after later version tags=" @rere and @DFDf" in testrunner  need to check and and and 
+
+how to mention multiple tags
+
+how to mention multiple tage in testrunner
+and
+or 
+not
+
+tag ="@" if @ is not mentioned it wont work
+
+how we can use in real time
+
+-----------------------------------------------------------
+                                             pending
+hooks
+
+when we will use hook
+
+hook vs background
+
+tags we will use in hooks and its support and or eg (@regression1 and @regression2) 
+
+flow after-background-scenario-steps
+
+interview que :-
+when some tc have different prerequest what we can do
+
+how we can write the partial code and with the common code
+
+
+------------------------------------------------
+background life and why we need to mention in all feature files
+
+when and ->when when
+
+in step definition we can mention whether when or and
+
+sanme thing will aplly for given ,then
+
+----------------------------------------------------------------
+reports 
+what is pretty 
+
+
+how to implement report plugin
+
+where we can find reports
+
+how to create report in json
+
+what is the use of that json report
+
+----------------------------
+new cucumber option dryrun=true how it works
+
+when we run the entire scnario some step mismatch will happen and it will break the execution 
+so it better to run before dryrun =true it verify all the syntax are correct
+
+not it wont execute the code
+
+                               pls refer cucumber 21 section for commom basisc question
+

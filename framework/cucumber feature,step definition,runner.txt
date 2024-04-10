@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------------------
+we need to add two dependecies->cucumber testng and cucumber java and i need to plugin the ide for cucumber
+
+in order to write scenario we need to create as .feature extension
+
+and we need to give feature name and scenario name with whether scenario outline and scenarios
+
+pls give whether its tag or name eg Background
+
+
+------------------------------------
+
+we need to create a step definition file which we need to map to those steps
+
+if it is scenario outline multiple values will come  we need to mention in regex
+
+i want to login <name> and passowrd
+
+in step definition
+i want to login (.+) and (.+) 
+we need to mention ^i want to login (.+) and (.+)$
+
+and we need to write the code as easy customer view
+
+and in jherkin ->step definition we can use when or and both will works
+--------------------------------
+
+what cucumber can support what it cant
+
+running it wont 
+
+why we need to use the avbstracttestng
+
+default cucmber supports junit inorder to support testng e need to extend AbstractTestng class
+
+we need to give some cucumberoptions
+
+@CucumberOptions(features = "C:\\Users\\krishna\\Framework\\Ecommerce\\src\\test\\java\\Cucumber", tags = "@error", glue = "Ecommerce.StepDefinitions" ,monochrome = true,plugin = "html:\\target\\cucmber.html")
+
+features=we need to mention the feauters path
+glue is the step definition we need to mention the package of path
+monochrome we need to set it as true if its is false it wiill run as encrypted mode
+plugin we need to mention two paramters para1:para 2   para one is what type eg html : para 2 is path where it will generation
+
+we can metion tag above scenario like @cc in feature
+
+
+tags={"@cccc"} ->new version= tags="@cc" in  run file on options
+
+
+

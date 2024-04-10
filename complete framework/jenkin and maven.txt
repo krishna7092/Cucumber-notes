@@ -1,0 +1,8 @@
+please refer in selenium maven and jernkin
+
+test -Dcucumber.filter.tags='$Tagstorun' -Dbrowser='$browsername'
+
+inorder to run on our tags we need to use
+-Dcucumber.filter.tags='$Tagstorun'
+
+-Dcucumber.filter.  ->having lot of options pls refer the cucumber officail website

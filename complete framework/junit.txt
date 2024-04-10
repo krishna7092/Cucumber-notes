@@ -1,0 +1,25 @@
+we need to add two dependencies like junit vs cucumber junit
+
+----------------------------------------------------------------------------------------------------
+
+junit and testng are similar but few configuration required
+
+in junit instead of extend abstracttestngrunner we need to use @runerwith(cucumber.class)
+
+note that testrunner should be named and ended like test eg:- testrunnertest
+
+
+parallal run:-
+testng parent class have scenario method it will run as parallel check in code
+
+in order to run the parallel in junit
+need to add plugin code
+on that we have threadcount we can set as /d or unlimited threads
+
+maven supports parrell execution for junit so we need to add the pomxml code 
+
+
+----------------------------
+diff between testng vs junit parallel runner
+testng will run scenario as parallel 
+junit will run only feature in parall

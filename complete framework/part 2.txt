@@ -1,0 +1,40 @@
+when we create properties file we should create in src/test/resources
+
+so cucmber will search for those when we run through cmds
+
+                 -------------------------------------------------------------------------------------------------------------
+steps to implement extendsparkreport
+two plugin one is avense extend another one is a third party grasshopper it help us to write in properties file as configuration
+in test runner need to pass adapter as string we can get from official website
+need to create a properties and need to pass parameters
+                --------------------------------------------------------------------------------------------------------------
+
+how to take screen shot we have one annotation called @afterstep 
+
+diff btw after vs afterstep
+
+
+afterstep every step it will run
+
+we need to use Scenario class to fetch scenario.fail()
+
+and need to write the code to take screenshot 
+
+scenario.attach();
+
+two line we need to give in properties
+where the path should be created   this one will create folder which have screenshot
+relative path for screenshots    this one search that path
+------------------------------------------------------------------------------------------------------
+
+rerun plugin 
+
+in order to rerun we need to pass an path and param in cucmber option
+
+that wwill create a doc of the which only we need to run it again
+
+we need to create another testrtunner and mention the fearure path of it and we can run to double check (note need to mention @)
+
+--------------------------------------------------------------------
+
+how to run parallel test in cucumber
